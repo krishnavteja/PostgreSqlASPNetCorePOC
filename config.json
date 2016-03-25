@@ -1,0 +1,5 @@
+{
+  "PostgreSqlProvider": {
+    "ConnectionString": "User ID=pocuser;Password=P@ssword1;Host=localhost;Port=5432;Database=PostgreSqlPOCDB;Pooling=true;"
+  }
+}
