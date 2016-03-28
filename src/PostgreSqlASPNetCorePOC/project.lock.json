@@ -3946,6 +3946,7 @@
           "System.ComponentModel.Annotations": "4.0.11-beta-23516",
           "System.Linq": "4.0.1-beta-23516",
           "System.Net.NetworkInformation": "4.1.0-beta",
+          "System.Net.Security": "4.0.0-beta-23516",
           "System.Runtime": "4.0.21-beta-23516",
           "System.Threading": "4.0.11-beta-23516"
         }
@@ -11213,6 +11214,7 @@
           "System.ComponentModel.Annotations": "4.0.11-beta-23516",
           "System.Linq": "4.0.1-beta-23516",
           "System.Net.NetworkInformation": "4.1.0-beta",
+          "System.Net.Security": "4.0.0-beta-23516",
           "System.Runtime": "4.0.21-beta-23516",
           "System.Threading": "4.0.11-beta-23516"
         }
@@ -14665,6 +14667,7 @@
           "System.ComponentModel.Annotations": "4.0.11-beta-23516",
           "System.Linq": "4.0.1-beta-23516",
           "System.Net.NetworkInformation": "4.1.0-beta",
+          "System.Net.Security": "4.0.0-beta-23516",
           "System.Runtime": "4.0.21-beta-23516",
           "System.Threading": "4.0.11-beta-23516"
         }

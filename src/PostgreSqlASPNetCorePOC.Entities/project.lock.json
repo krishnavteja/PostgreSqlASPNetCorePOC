@@ -14576,7 +14576,8 @@
       "fx/System.ComponentModel.DataAnnotations >= 4.0.0"
     ],
     "DNXCore,Version=v5.0": [
-      "System.ComponentModel.Annotations >= 4.0.11-beta-23516"
+      "System.ComponentModel.Annotations >= 4.0.11-beta-23516",
+      "System.Net.Security >= 4.0.0-beta-23516"
     ]
   }
 }
