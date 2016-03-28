@@ -135,6 +135,35 @@
           "lib/dnx451/EntityFramework7.Npgsql.dll": {}
         }
       },
+      "EntityFramework7.Npgsql.Design/3.1.0-rc1-5": {
+        "type": "package",
+        "dependencies": {
+          "EntityFramework.Core": "7.0.0-rc1-final",
+          "EntityFramework.Relational": "7.0.0-rc1-final",
+          "EntityFramework.Relational.Design": "7.0.0-rc1-final",
+          "EntityFramework7.Npgsql": "3.1.0-rc1-3",
+          "Microsoft.Extensions.DependencyInjection": "1.0.0-rc1-final",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "1.0.0-rc1-final",
+          "Npgsql": "3.1.0-alpha6"
+        },
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "mscorlib",
+          "System",
+          "System.Collections",
+          "System.Core",
+          "System.Diagnostics.Contracts",
+          "System.Linq.Expressions",
+          "System.Reflection",
+          "System.Runtime"
+        ],
+        "compile": {
+          "lib/dnx451/EntityFramework7.Npgsql.Design.dll": {}
+        },
+        "runtime": {
+          "lib/dnx451/EntityFramework7.Npgsql.Design.dll": {}
+        }
+      },
       "Ix-Async/1.2.5": {
         "type": "package",
         "frameworkAssemblies": [
@@ -1127,6 +1156,24 @@
         },
         "runtime": {
           "lib/dnxcore50/EntityFramework7.Npgsql.dll": {}
+        }
+      },
+      "EntityFramework7.Npgsql.Design/3.1.0-rc1-5": {
+        "type": "package",
+        "dependencies": {
+          "EntityFramework.Core": "7.0.0-rc1-final",
+          "EntityFramework.Relational": "7.0.0-rc1-final",
+          "EntityFramework.Relational.Design": "7.0.0-rc1-final",
+          "EntityFramework7.Npgsql": "3.1.0-rc1-3",
+          "Microsoft.Extensions.DependencyInjection": "1.0.0-rc1-final",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "1.0.0-rc1-final",
+          "Npgsql": "3.1.0-alpha6"
+        },
+        "compile": {
+          "lib/dnxcore50/EntityFramework7.Npgsql.Design.dll": {}
+        },
+        "runtime": {
+          "lib/dnxcore50/EntityFramework7.Npgsql.Design.dll": {}
         }
       },
       "Ix-Async/1.2.5": {
@@ -2974,6 +3021,35 @@
           "lib/dnx451/EntityFramework7.Npgsql.dll": {}
         }
       },
+      "EntityFramework7.Npgsql.Design/3.1.0-rc1-5": {
+        "type": "package",
+        "dependencies": {
+          "EntityFramework.Core": "7.0.0-rc1-final",
+          "EntityFramework.Relational": "7.0.0-rc1-final",
+          "EntityFramework.Relational.Design": "7.0.0-rc1-final",
+          "EntityFramework7.Npgsql": "3.1.0-rc1-3",
+          "Microsoft.Extensions.DependencyInjection": "1.0.0-rc1-final",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "1.0.0-rc1-final",
+          "Npgsql": "3.1.0-alpha6"
+        },
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "mscorlib",
+          "System",
+          "System.Collections",
+          "System.Core",
+          "System.Diagnostics.Contracts",
+          "System.Linq.Expressions",
+          "System.Reflection",
+          "System.Runtime"
+        ],
+        "compile": {
+          "lib/dnx451/EntityFramework7.Npgsql.Design.dll": {}
+        },
+        "runtime": {
+          "lib/dnx451/EntityFramework7.Npgsql.Design.dll": {}
+        }
+      },
       "Ix-Async/1.2.5": {
         "type": "package",
         "frameworkAssemblies": [
@@ -4008,6 +4084,35 @@
           "lib/dnx451/EntityFramework7.Npgsql.dll": {}
         }
       },
+      "EntityFramework7.Npgsql.Design/3.1.0-rc1-5": {
+        "type": "package",
+        "dependencies": {
+          "EntityFramework.Core": "7.0.0-rc1-final",
+          "EntityFramework.Relational": "7.0.0-rc1-final",
+          "EntityFramework.Relational.Design": "7.0.0-rc1-final",
+          "EntityFramework7.Npgsql": "3.1.0-rc1-3",
+          "Microsoft.Extensions.DependencyInjection": "1.0.0-rc1-final",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "1.0.0-rc1-final",
+          "Npgsql": "3.1.0-alpha6"
+        },
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "mscorlib",
+          "System",
+          "System.Collections",
+          "System.Core",
+          "System.Diagnostics.Contracts",
+          "System.Linq.Expressions",
+          "System.Reflection",
+          "System.Runtime"
+        ],
+        "compile": {
+          "lib/dnx451/EntityFramework7.Npgsql.Design.dll": {}
+        },
+        "runtime": {
+          "lib/dnx451/EntityFramework7.Npgsql.Design.dll": {}
+        }
+      },
       "Ix-Async/1.2.5": {
         "type": "package",
         "frameworkAssemblies": [
@@ -5006,6 +5111,24 @@
         },
         "runtime": {
           "lib/dnxcore50/EntityFramework7.Npgsql.dll": {}
+        }
+      },
+      "EntityFramework7.Npgsql.Design/3.1.0-rc1-5": {
+        "type": "package",
+        "dependencies": {
+          "EntityFramework.Core": "7.0.0-rc1-final",
+          "EntityFramework.Relational": "7.0.0-rc1-final",
+          "EntityFramework.Relational.Design": "7.0.0-rc1-final",
+          "EntityFramework7.Npgsql": "3.1.0-rc1-3",
+          "Microsoft.Extensions.DependencyInjection": "1.0.0-rc1-final",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "1.0.0-rc1-final",
+          "Npgsql": "3.1.0-alpha6"
+        },
+        "compile": {
+          "lib/dnxcore50/EntityFramework7.Npgsql.Design.dll": {}
+        },
+        "runtime": {
+          "lib/dnxcore50/EntityFramework7.Npgsql.Design.dll": {}
         }
       },
       "Ix-Async/1.2.5": {
@@ -7272,6 +7395,24 @@
           "lib/dnxcore50/EntityFramework7.Npgsql.dll": {}
         }
       },
+      "EntityFramework7.Npgsql.Design/3.1.0-rc1-5": {
+        "type": "package",
+        "dependencies": {
+          "EntityFramework.Core": "7.0.0-rc1-final",
+          "EntityFramework.Relational": "7.0.0-rc1-final",
+          "EntityFramework.Relational.Design": "7.0.0-rc1-final",
+          "EntityFramework7.Npgsql": "3.1.0-rc1-3",
+          "Microsoft.Extensions.DependencyInjection": "1.0.0-rc1-final",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "1.0.0-rc1-final",
+          "Npgsql": "3.1.0-alpha6"
+        },
+        "compile": {
+          "lib/dnxcore50/EntityFramework7.Npgsql.Design.dll": {}
+        },
+        "runtime": {
+          "lib/dnxcore50/EntityFramework7.Npgsql.Design.dll": {}
+        }
+      },
       "Ix-Async/1.2.5": {
         "type": "package",
         "compile": {
@@ -9531,6 +9672,21 @@
         "lib/dnxcore50/EntityFramework7.Npgsql.xml",
         "lib/net451/EntityFramework7.Npgsql.dll",
         "lib/net451/EntityFramework7.Npgsql.xml"
+      ]
+    },
+    "EntityFramework7.Npgsql.Design/3.1.0-rc1-5": {
+      "type": "package",
+      "sha512": "h7bsey+w3HBqhZQGbk6XeEMxXNCt+1hVg1Ju4QzZHUGSzWT6/ZduaPs3UjNQhpvcTRE7GYa99gYraKdNH3jEOg==",
+      "files": [
+        "EntityFramework7.Npgsql.Design.3.1.0-rc1-5.nupkg",
+        "EntityFramework7.Npgsql.Design.3.1.0-rc1-5.nupkg.sha512",
+        "EntityFramework7.Npgsql.Design.nuspec",
+        "lib/dnx451/EntityFramework7.Npgsql.Design.dll",
+        "lib/dnx451/EntityFramework7.Npgsql.Design.xml",
+        "lib/dnxcore50/EntityFramework7.Npgsql.Design.dll",
+        "lib/dnxcore50/EntityFramework7.Npgsql.Design.xml",
+        "lib/net451/EntityFramework7.Npgsql.Design.dll",
+        "lib/net451/EntityFramework7.Npgsql.Design.xml"
       ]
     },
     "Ix-Async/1.2.5": {
@@ -13570,6 +13726,7 @@
       "System.Threading >= 4.0.11-beta-23516",
       "EntityFramework.Commands >= 7.0.0-rc1-final",
       "EntityFramework7.Npgsql >= 3.1.0-rc1-3",
+      "EntityFramework7.Npgsql.Design >= 3.1.0-rc1-5",
       "Microsoft.AspNet.Diagnostics.Entity >= 7.0.0-rc1-final",
       "Microsoft.AspNet.Identity.EntityFramework >= 3.0.0-rc1-final",
       "Microsoft.Extensions.Configuration.Abstractions >= 1.0.0-rc1-final",
