@@ -14,7 +14,7 @@ using PostgreSqlASPNetCorePOC.Services;
 using Microsoft.AspNet.Mvc.Formatters;
 using Newtonsoft.Json;
 using PostgreSqlASPNetCorePOC.Entities;
-using PostgreSqlASPNetCorePOC.DataAccessPGSqlProvider;
+using PostgreSqlASPNetCorePOC.Entities.Migrations;
 
 namespace PostgreSqlASPNetCorePOC
 {
@@ -73,8 +73,7 @@ namespace PostgreSqlASPNetCorePOC
                 .AddNpgsql()
                 .AddDbContext<PostgreSqlContext>();
 
-            // Use a PostgreSQL database
-            services.AddScoped<IDataAccessProvider, PostgreSqlProvider>();
+            services.AddTransient<Seeder>();
 
             // Add application services.
             services.AddTransient<IEmailSender, AuthMessageSender>();
@@ -82,7 +81,7 @@ namespace PostgreSqlASPNetCorePOC
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IHostingEnvironment env, ILoggerFactory loggerFactory)
+        public void Configure(IApplicationBuilder app, Seeder seeder, IHostingEnvironment env, ILoggerFactory loggerFactory)
         {
             loggerFactory.AddConsole(Configuration.GetSection("Logging"));
             loggerFactory.AddDebug();
@@ -124,6 +123,12 @@ namespace PostgreSqlASPNetCorePOC
                     name: "default",
                     template: "{controller=Home}/{action=Index}/{id?}");
             });
+
+            if (System.Diagnostics.Debugger.IsAttached == false)
+                System.Diagnostics.Debugger.Launch();
+
+            // Seed data
+            seeder.EnsureSeedData().Wait();
         }
 
         // Entry point for the application.

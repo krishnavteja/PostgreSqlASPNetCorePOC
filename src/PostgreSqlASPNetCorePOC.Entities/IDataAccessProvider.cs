@@ -7,17 +7,17 @@ namespace PostgreSqlASPNetCorePOC.Entities
 {
     public interface IDataAccessProvider
     {
-        void AddDataEventRecord(DataEventRecord dataEventRecord);
+        void AddProduct(Product dataEventRecord);
 
-        void UpdateDataEventRecord(long dataEventRecordId, DataEventRecord dataEventRecord);
+        void UpdateProduct(Guid id, Product product);
 
-        void DeleteDataEventRecord(long dataEventRecordId);
+        void DeleteProduct(Guid id);
 
-        DataEventRecord GetDataEventRecord(long dataEventRecordId);
+        Product GetProduct(Guid id);
 
-        List<DataEventRecord> GetDataEventRecords();
+        List<Product> GetProducts();
 
-        List<SourceInfo> GetSourceInfos(bool withChildren);
+        List<Order> GetOrders(bool withChildren);
 
     }
 }
