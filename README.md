@@ -31,7 +31,7 @@ This should create a new database in PostgreSql and create the necessary tables.
 [http://localhost:1465/api/products/3721d2ce-f654-4d44-886d-ee51d87f797b](http://localhost:1465/api/products/3721d2ce-f654-4d44-886d-ee51d87f797b)
 
 
-Steps for Mac:
+**Steps for Mac:**
 
 There are some additional steps to get the app working on Mac vs Windows.
 
