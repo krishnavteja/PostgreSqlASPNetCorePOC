@@ -27,8 +27,11 @@ This should create a new database in PostgreSql and create the necessary tables.
 
 - For the POC, hit the following link to get sample Products data.
 
-[http://localhost:1465/api/products](http://localhost:1465/api/products)
-[http://localhost:1465/api/products/3721d2ce-f654-4d44-886d-ee51d87f797b](http://localhost:1465/api/products/3721d2ce-f654-4d44-886d-ee51d87f797b)
+- [http://localhost:1465/api/products](http://localhost:1465/api/products)
+
+- [http://localhost:1465/api/products/3721d2ce-f654-4d44-886d-ee51d87f797b](http://localhost:1465/api/products/3721d2ce-f654-4d44-886d-ee51d87f797b)
+
+
 
 
 **Steps for Mac:**
@@ -96,7 +99,8 @@ to restore packages from nuget.
 
 - Navigate to api test urls (make sure to use the right port that the app starts in)
 
-[http://localhost:5000/api/products](http://localhost:5000/api/products)
-[http://localhost:5000/api/products/3721d2ce-f654-4d44-886d-ee51d87f797b](http://localhost:5000/api/products/3721d2ce-f654-4d44-886d-ee51d87f797b)
+- [http://localhost:5000/api/products](http://localhost:5000/api/products)
+
+- [http://localhost:5000/api/products/3721d2ce-f654-4d44-886d-ee51d87f797b](http://localhost:5000/api/products/3721d2ce-f654-4d44-886d-ee51d87f797b)
 
 
